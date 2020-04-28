@@ -1,10 +1,10 @@
 
 const defaultExpenseTags = [
-    {name: 'food', value: '餐饮'},
-    {name: 'shopping', value: '购物'},
+    {name: 'gw', value: '购物'},
+    {name: 'cy1', value: '餐饮'},
     {name: 'house', value: '居住'},
-    {name: 'transport', value: '交通'},
-    {name: 'entertainment', value: '娱乐'},
+    {name: 'jt', value: '交通'},
+    {name: 'yl', value: '娱乐'},
     {name: 'medical', value: '医疗'}
 ] as TagItem[];
 
@@ -17,7 +17,7 @@ const defaultIncomeTags = [
 ] as TagItem[];
 
 const foodTags = [
-    {name: 'food', value: '餐饮'},
+    {name: 'cy1', value: '餐饮'},
     {name: 'rice', value: '午餐/晚餐'},
     {name: 'outgoing', value: '外卖'},
     {name: 'vegetables', value: '买菜'},
@@ -27,7 +27,7 @@ const foodTags = [
 ] as TagItem[];
 
 const shoppingTags = [
-    {name: 'shopping', value: '购物'},
+    {name: 'gw', value: '购物'},
     {name: 'necessary', value: '日用品'},
     {name: 'cloth', value: '衣服'},
     {name: 'digital', value: '数码'},
@@ -37,7 +37,7 @@ const shoppingTags = [
 ] as TagItem[];
 
 const transportTags = [
-    {name: 'transport', value: '交通'},
+    {name: 'jt', value: '交通'},
     {name: 'bus', value: '公交'},
     {name: 'subway', value: '地铁'},
     {name: 'train', value: '火车'},
@@ -53,7 +53,7 @@ const houseTags = [
 ] as TagItem[];
 
 const entertainmentTags = [
-    {name: 'entertainment', value: '娱乐'},
+    {name: 'yl', value: '娱乐'},
     {name: 'game', value: '游戏'},
     {name: 'movie', value: '电影'},
     {name: 'sport', value: '运动'},

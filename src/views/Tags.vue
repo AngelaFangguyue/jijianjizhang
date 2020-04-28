@@ -81,7 +81,7 @@
         components: {Icon, TagList, Layout}
     })
     export default class Label extends Vue {
-        tag: TagItem = {name: 'food', value: '餐饮'};
+        tag: TagItem = {name: 'cy1', value: '餐饮'};
         foodTags = foodTags;
         shoppingTags = shoppingTags;
         transportTags = transportTags;
