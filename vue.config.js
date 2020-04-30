@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/jijianjizhang/'
+        ? '/jijianjizhang-view/'
         : '/',
     chainWebpack: config => {
         const icons = path.resolve(__dirname, 'src', 'assets', 'icons')

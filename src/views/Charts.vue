@@ -181,7 +181,7 @@
             const result = new Map<string, number>();
             let i: number;
             // 初始化
-            for (i = 1; i < this.days; i++) {
+            for (i = 1; i <= this.days; i++) {
                 keys.push(i.toString());
             }
             for (i = 0; i < keys.length; i++) {
